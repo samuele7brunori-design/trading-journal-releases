@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Geologica";
+  src: url("../fonts/Geologica-latin.woff2") format("woff2");
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+  --ink: oklch(96% 0.008 130);
+  --ink-soft: oklch(76% 0.015 130);
+  --ink-muted: oklch(57% 0.014 130);
+  --night: oklch(14% 0.012 145);
+  --night-raised: oklch(18% 0.014 145);
+  --night-soft: oklch(22% 0.014 145);
+  --line-dark: oklch(31% 0.012 145 / .7);
+  --paper: oklch(96.5% 0.008 100);
+  --paper-raised: oklch(99% 0.004 100);
+  --paper-ink: oklch(20% 0.018 145);
+  --paper-muted: oklch(49% 0.014 145);
+  --line-light: oklch(84% 0.012 120);
+  --acid: oklch(88% 0.19 125);
+  --acid-deep: oklch(70% 0.17 130);
+  --cyan: oklch(78% 0.12 205);
+  --red: oklch(67% 0.19 25);
+  --green: oklch(76% 0.16 145);
+  --font: "Geologica", system-ui, sans-serif;
+  --max: 90rem;
+  --gutter: clamp(1.25rem, 4vw, 4.5rem);
+  --section: clamp(6rem, 12vw, 11rem);
+  --radius-sm: .55rem;
+  --radius-md: 1rem;
+  --shadow-screen: 0 2.5rem 7rem oklch(5% 0.01 145 / .48);
+  --ease: cubic-bezier(.2, .75, .2, 1);
+  --fast: 180ms;
+  --medium: 520ms;
+}
